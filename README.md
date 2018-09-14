@@ -1,18 +1,27 @@
 # CardConnect App
 
-## views
-* admin
-* recurring
-** setup plan
+## views 
+### admin
+- merchid, creds, site
+
+### recurring
+- setup plan
 - see recent attempts
 - see all plans
-* payments
+
+### payments
 - auth
+  - iFrame tokenizer on/off
 - void
-- refund
+- forced credit (refund w/o ref) 
+- refund (w/ ref)
 - store profile
 - see profile’s accounts
 - pay with profile
-* reporting
+
+## reporting
 - settlement status 
 - funding
+
+### Bolt
+
