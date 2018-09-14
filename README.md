@@ -1,6 +1,4 @@
 # CardConnect App
-
-## views 
 ### admin
 - merchid, creds, site
 
@@ -19,7 +17,7 @@
 - see profile’s accounts
 - pay with profile
 
-## reporting
+### reporting
 - settlement status 
 - funding
 
