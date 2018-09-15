@@ -1,4 +1,9 @@
 # CardConnect App
+
+Express application to be used as an example implementation of CardConnect's services.
+made with https://semantic-ui.com/
+
+# Navigation
 ### admin
 - merchid, creds, site
 
