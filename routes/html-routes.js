@@ -21,4 +21,12 @@ module.exports = function(app) {
     res.render("pay");
   });
 
+  app.get("/bill", function(req, res) {
+    res.render("bill");
+  });
+
+  app.get("/report", function(req, res) {
+    res.render("report");
+  });
+
 };

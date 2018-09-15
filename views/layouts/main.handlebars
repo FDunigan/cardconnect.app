@@ -22,25 +22,31 @@
 <div class="ui equal width grid">
     
   <div class="column">
-    
+    {{!-- request data --}}
   </div>
   <div class="eight wide column">
     <div class="ui segment">
-<div class="ui menu">
-        <a class="item">Pay</a>
-        <a class="item">Bill</a>
-        <a class="item">Report</a>
-        <a class="item">Bolt</a>
+
+<div class="ui stackable menu">
+  <div class="item">
+    {{!-- <img src="/img/cclogo.png"> --}}
+    <i class="credit card icon"></i>
+  </div>
+  <a href="/pay" class="item">Pay</a>
+        <a href="/bill" class="item">Bill</a>
+        <a href="/report" class="item">Report</a>
+        <a href="/bolt" class="item">Bolt</a>
         <div class="right menu">
             <a href = "/config" class="item">Config</a>
             <a class="item">Exit</a>
         </div>
 </div>
+
       {{{body}}}
     </div>
   </div>
   <div class="column">
-    
+    {{!-- response data --}}
   </div>
 </div>
 
