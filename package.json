@@ -1,0 +1,33 @@
+{
+  "name": "cardconnect.app",
+  "version": "1.0.0",
+  "description": "cardconnect integration client",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevnat/cardconnect.app.git"
+  },
+  "keywords": [
+    "cardconnect",
+    "payments",
+    "bolt",
+    "creditcard"
+  ],
+  "author": "Kevin Nathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevnat/cardconnect.app/issues"
+  },
+  "homepage": "https://github.com/kevnat/cardconnect.app#readme",
+  "dependencies": {
+    "axiom": "^0.1.6",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.1"
+  }
+}
